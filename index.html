@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keep it Secret</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./Assets/incognito.svg" type="image/x-icon">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <img src="./Assets/incognito.svg" alt="" id="incognito">
+    <div class="container">
+        <div class="card">
+            <h2>Encrypt or Decrypt</h2>
+            <p id="choice">What's your choice?</p>
+            <input type="text" placeholder="Enter the Secret" id="encrypt">
+            <div class="button">
+                <button onclick="encrypt()"><img src="./Assets/lock-fill.svg"></button>
+                <button onclick="decrypt()"><img src="./Assets/unlock-fill.svg"></button>
+            </div>
+            <label for="encrypted">Your Secret Message</label>
+            <p id="encrypted">Will be here!</p>
+        </div>
+    </div>
+</body>
+
+</html>
