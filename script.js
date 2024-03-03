@@ -1,5 +1,6 @@
 function encrypt(){
     let text=document.getElementById("encrypt").value.trim()
+    document.getElementById("encrypt").value="";
     let result=""
     let n=text.length;
     let random = Math.floor(Math.random()*n)
@@ -19,6 +20,7 @@ function encrypt(){
 
 function decrypt(){
     let text=document.getElementById("encrypt").value.trim()
+    document.getElementById("encrypt").value="";
     let result=""
     let n = text.length;
     let random = Math.floor(Math.random()*n)
