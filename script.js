@@ -7,7 +7,7 @@ function encrypt(){
     for(i=0;i<n;i++){
         let c = text[i];
         if(c===" "){
-            result=result+"".trim()
+            result=result+text[random];
         }
         else{
             let code=text.charCodeAt(i);
@@ -27,7 +27,7 @@ function decrypt(){
     for(i=0;i<n;i++){
         let c= text[i];
         if(c===" "){
-            result=result+"".trim()
+            result=result+text[random];
         }
         else{
             let code = text.charCodeAt(i);
