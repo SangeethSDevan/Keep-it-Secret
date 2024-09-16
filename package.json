@@ -1,0 +1,16 @@
+{
+  "name": "secret-node",
+  "version": "1.0.0",
+  "description": "Welcome to Keep-it-Secret, a simple encryption and decryption application utilizing the Caesar cipher technique with a shift of 5. This README provides an overview of the app and instructions on how to use it effectively.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  }
+}
