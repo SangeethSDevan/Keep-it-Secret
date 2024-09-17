@@ -13,7 +13,7 @@ Keep-it-Secret is a web-based tool designed to encrypt and decrypt text messages
 - Secure encryption and decryption process.
 
 ## Usage
-1. Visit the Keep-it-Secret website at [https://s4xthhhhh.github.io/Keep-it-Secret/](https://s4xthhhhh.github.io/Keep-it-Secret/).
+1. Visit the Keep-it-Secret website at [https://keep-it-secret.onrender.com](https://keep-it-secret.onrender.com).
 2. You will be presented with a text area labeled "Enter Text" (The Entered text must be with in a range of a sentence).
 3. To encrypt a message, type or paste your plaintext message into the "Enter Text" area.
 4. Click on the "Encrypt" button.
